@@ -21,10 +21,12 @@ function Navbar () {
                 flex justify-center py-4'>
 
                 <div className="container flex justify-between text-lg">
-                    <Link to='/home' className="text-2xl font-bold">Blog Pessoal</Link>
+                    <Link to='/home' className="text-2xl font-bold">A Byte de Mim</Link>
 
                     <div className='flex gap-4'>
+                        <Link to='/postagens' className='hover:underline'>
                         Postagens
+                        </Link>
                         <Link to='/temas' className='hover:underline'>
                         Temas
                         </Link>
